@@ -1,6 +1,11 @@
 # simple-state-pattern
 
-# State Pattern (from the code)
+A simple example to introduce the reader to the state pattern in C. 
+The simplest example is a door.
+A state machine is a machine that responds to the same input differently, depending on its current state.
+For example, closing a door has two very different effects whether or not it is closed.
+Indeed, if the door is closed, closing it does not do anything. If the door is opened, closing it make it closed. While sounding really trivial in this example, it can get really complex quickly. That is why we use a state pattern, a programming methodology to organize the code to be modular and keep it clear.
+
 
 ## Core Idea
 
